@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Parcel App</title>
+    <script src="./src/main.js"></script>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <div id="videoPlacement"></div>
+    <script>
+      window.videoAPI = acVideo(
+        "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/GTYSdDW/dingle-ireland-cliffs-passing-aerial-cliffs-passing-aerial_ri-3_4ucul__8146e79ad6de872032de9dc7b3c67420__P360.mp4"
+        ,document.getElementById("videoPlacement")
+      ).subscribe("onHalfway",e=>{
+        console.log("We are halfway there", e.data)
+      })
+    </script>
+  </body>
+</html>

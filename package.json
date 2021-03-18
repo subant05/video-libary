@@ -1,0 +1,22 @@
+{
+  "name": "video-libary",
+  "version": "1.0.0",
+  "description": "Video Libary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subant05/video-libary.git"
+  },
+  "author": "Anthony Crawford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subant05/video-libary/issues"
+  },
+  "homepage": "https://github.com/subant05/video-libary#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
